@@ -1,0 +1,34 @@
+{
+    {
+      "start": {
+        "message": "Привет, я Бот-каталог кондитерской",
+        "keyboard": "KEYBOARD_1",
+        "state": "CatalogStates.SECTION"
+      }
+    },
+    {
+      "section": {
+        "message": "Вы находитесь в категории {category}. Выберите товар или вернитесь назад.",
+        "keyboard": "get_keyboard",
+        "state": "CatalogStates.CHOOSE"
+      }
+    },
+    {
+      "choose": {
+        "message": "Вы вернулись на главную",
+        "keyboard": "KEYBOARD_1",
+        "state": "CatalogStates.SECTION",
+        "else_state": "CatalogStates.ITEM"
+      }
+    },
+    {
+      "item": {
+        "message": "Вот ваш товар",
+        "keyboard": "KEYBOARD_3",
+        "else_message": "Вы находитесь в категории {category}. Выберите товар или вернитесь назад.",
+        "else_keyboard": "get_keyboard",
+        "else_state": "CatalogStates.CHOOSE"
+      }
+    }
+  }
+
