@@ -1,4 +1,4 @@
-from models import Session, Section, Item  # предположим, что сессия и модели были импортированы здесь
+from bot_vk.models import Session, Section, Item  # предположим, что сессия и модели были импортированы здесь
 
 from sqlalchemy import desc
 import json
