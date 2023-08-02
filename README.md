@@ -1,8 +1,10 @@
 # VK_bot
 Бот-каталог для Кондитерского магазина
 
-Использованы технологии SQLAlchemy, SQLlite, VKbottle, Docker
+## Использованы технологии
+SQLAlchemy, SQLlite, VKbottle, Docker
 
+## Как развернуть бота
 Для запуска бота необходимо клонировать репозиторий git clone 
 
 В директории bot_vk создать .env файл и добавить VK_TOKEN
