@@ -1,7 +1,7 @@
 FROM python:3.10.0
 
 COPY requirements.txt /app/requirements.txt
-COPY bot /app
+COPY bot_vk /app
 
 WORKDIR /app
 
